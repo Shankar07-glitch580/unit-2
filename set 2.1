@@ -1,0 +1,102 @@
+num = int(input("enter a number:"))
+if num >0:
+    print("number is positive")
+elif num < 0:
+    print("number is negative")
+else:
+    print("number is zero")
+
+num = int(input("enter a number:"))
+if num%2 == 0:
+    print("even")
+else:
+    print("odd")
+
+a = int(input("enter a number:"))
+b = int(input("enter a number:"))
+c = int(input("enter a number:"))
+if a>b and a>c:
+    print("a is greatest")
+elif b>a and b>c:
+    print("b is greatest")
+else:
+    print("c is greatest")
+
+
+marks = int(input("enter number"))
+if marks >=90 and marks<=100:
+    print("grade A")
+elif marks >= 75 and marks<=89:
+    print("grade B")
+elif marks >= 60 and marks <=74:
+    print("grade C")
+elif marks >=40 and marks <= 59:
+    print("grade D")
+else:
+    print("fail")
+    
+year =  int(input("enter year"))    
+if year%400 == 0:
+    print("leap year")
+elif year%4==0 and year % 100 != 0:
+    print("leap year")
+else:
+    print("not leap year")
+    
+balance = int(input("Enter account balance: "))
+withdraw = int(input("Enter withdrawal amount: "))
+
+if withdraw <= balance:
+    print("Withdrawal successful")
+else:
+    print("Insufficient balance")
+
+marks = int(input("ente'enter a marks"))
+attendence = int(input("enter attendence"))
+if marks >=85 and attendence >= 75:
+    print("eligible for scholarship")
+else:
+    print("not elegible for scholarship")
+
+unit = int(input("eneter unit"))
+if unit <=100:
+    unit = unit*5
+elif unit >= 101 and unit <= 300:
+    unit = unit*7
+else:
+    bill = unit*10
+print("Electricity bill =",unit  ,"rupees")   
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+choice = input("Enter +, -, *, or /: ")
+
+if choice == "+":
+    print("Addition =", a + b)
+
+elif choice == "-":
+    print("Subtraction =", a - b)
+
+elif choice == "*":
+    print("Multiplication =", a * b)
+
+elif choice == "/":
+    if b != 0:
+        print("Division =", a / b)
+    else:
+        print("Cannot divide by zero")
+
+else:
+    print("Invalid choice")
+
+
+name = input("Enter your name: ")
+password = input("Enter your password: ")
+
+if name == "Shankar" and password == "1234":
+    print("Login successful")
+else:
+    print("Invalid username or password")
+
