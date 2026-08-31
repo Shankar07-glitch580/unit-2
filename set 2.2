@@ -27,3 +27,34 @@ for i in range(1, 6):
     for j in range(i):
         print(i, end=" ")
     print()
+
+a = int(input("enter a number:"))
+fact = 1 
+for i in range(1,a+1):
+    fact *= i 
+    
+print(fact)
+
+n = int(input("Enter a number:"))
+for i in range(1,11):
+    print(n, "x", i, "=", n * i)   
+    # print(n*i)
+
+n = int(input("Enter a number:"))
+sum = 0
+# avg = n*(n+1)/2
+# print("avg = ",avg)
+for i in range(1,n+1):
+    sum = sum + i
+avg = sum/n
+print("avg = ", avg)
+
+x = int(input("Enter a number:"))
+n = int(input("Enter a number"))
+ans = 1
+for i in range(n):
+    ans = ans*x
+print(ans)    
+
+
+    
