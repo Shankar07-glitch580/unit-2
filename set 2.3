@@ -1,0 +1,47 @@
+for i in range(1,51):
+    if i%2 == 0:
+        print(i,"is even")
+    else:
+        print(i,"is odd")
+
+
+
+sum = 0
+for i in range(1,101):
+    if i%3==0 and i%5 == 0:
+        sum = sum +i
+print(sum)
+
+
+
+positive = 0
+negative = 0
+zero = 0
+for i in range(10):
+    n = int(input("Enter a number:"))
+    if n > 0:
+        positive += 1
+    elif n < 0:
+        negative += 1
+    else:
+        zero += 1
+
+print("positive",positive)
+print("negative",negative)
+print("zero",zero)
+
+
+
+for i in range(1,6):
+    print("Table of ",i)
+    
+    for j in range(1,11):
+        result = i*j 
+        if result % 2 == 0:
+            print(i,"x", j, " = ", result)
+print()            
+
+
+
+
+        
